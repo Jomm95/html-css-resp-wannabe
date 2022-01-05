@@ -73,3 +73,87 @@ img {
 }
 
 /* MEDIA QUERY */
+
+@media all and (max-width:419px) {
+
+  body {
+    margin:0;
+  }
+
+
+  /* FONT SIZE E IMG */
+  h1, h3 {
+    padding:5px;
+    margin:0;
+  }
+
+  h3 {
+    font-size:20px;
+  }
+  
+  /* FINE FONT SIZE---------------------------- */
+
+  /* IMMAGINI */
+
+  img {
+    padding-top:15px;
+  }
+
+  #lezioni img {
+    height:auto;
+    width:15%;
+  }
+
+  #steps img {
+    height:auto;
+    width:15%;
+  }
+
+  #why img {
+    height:auto;
+    width:10%;
+    padding-top:25px;
+  }
+
+  /* FINE IMMAGINI-------------------------------- */
+
+  /* ROW E RIQUADRI */
+  .row {
+    margin:0;
+    padding-bottom:10px;
+  }
+  
+  #lezioni .row {
+    background-color: #f2f2cd;
+  }
+
+  #lezioni .row .left,
+  #lezioni .row .right {
+  float: none;
+  margin:auto;
+  width:80%;
+}
+
+#steps .row .left,
+#steps .row .central,
+#steps .row .right {
+  float:none;
+  width:80%;
+  margin:auto;
+}
+
+#why .row {
+  background-color: #f2f2cd;
+}
+
+#why .row .first,
+#why .row .second,
+#why .row .third {
+  width:80%;
+  margin:auto;
+}
+
+}
+
+
+/* -------------------Fine Query----------------------------- */
